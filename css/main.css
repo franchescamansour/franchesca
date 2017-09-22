@@ -1,0 +1,106 @@
+body {
+  background-color: black;
+  font-family: 'Abril Fatface', cursive;
+  margin-top: 20em;
+}
+
+.franchesca {
+  color: #98FF98;
+}
+
+.is {
+  margin-right: 8.5em;
+}
+
+.graphic {
+  margin-right: 1.2em;
+}
+
+.designer {
+  margin-right: 1.7em;
+  margin-top: 1em;
+}
+
+.bio {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin-top: 1em;
+}
+
+.email {
+  font-family:'Lato', sans-serif;
+  font-weight: 300;
+  margin-top: 6em;
+  color: #98FF98;
+}
+
+div {
+  color: #F1F2F2;
+}
+
+h1, h2 {
+  font-size: 2em;
+}
+
+/*SOCIAL MEDIA*/
+.socialmedialist {
+  list-style-type: none;
+  margin-right: 4.5em;
+  margin-top: -1em;
+}
+
+a {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  color: #474448;
+}
+
+a:hover {
+  color: #E12E2E;
+}
+
+.socialmedialist li {
+  display: inline-block;
+}
+
+/*MEDIA QUERIES*/
+@media only screen and (min-width: 38em) {
+
+  body {
+    margin-top: 17em;
+  }
+
+  .bio {
+    margin-top: 3em;
+    margin-right: 9em;
+  }
+
+  .email {
+    margin-right: 8.5em;
+  }
+
+  .socialmedialist {
+    margin-right: 12.2em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  body {
+    margin-top: 14em;
+  }
+
+  .email {
+    margin-top: 3.5em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  body {
+    margin-top: 11em;
+  }
+
+}
