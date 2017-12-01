@@ -58,6 +58,11 @@ footer p{
   font-weight: 300;
 }
 
+.tuned {
+  color: #9500ff;
+  
+}
+
 .btn{
   background-color: transparent;
   color: white;
