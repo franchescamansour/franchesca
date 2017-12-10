@@ -22,7 +22,7 @@ body, html {
 }
 
 .hero-text p {
-  color: #aeaeae;
+  color: #250D29;
   font-family: 'Lato', sans-serif;
   font-weight: 200;
   margin-top: -1em;
@@ -30,53 +30,53 @@ body, html {
 
 h1 {
   font-size: 19px;
+  color: #250D29;
 }
 
 h2 {
-  color: #e1e1e1;
+  color: #B1A7AE;
   font-weight: 300;
 }
 
 footer {
   font-family: 'Lato', sans-serif;
-  background-color: black;
+  background-color: #250D29;
   padding: 2em;
 }
 
 footer a {
   text-decoration: none;
-  color: #9500ff;
+  color: #553E4E;
 }
 
 footer a:hover {
-  color: #eeeeee;
+  color: white;
 }
 
 footer p{
-  color: #e1e1e1;
+  color: #B1A7AE;
   margin-top: -1em;
   font-weight: 300;
 }
 
 .tuned {
-  color: #9500ff;
-
+  color: #553E4E;
 }
 
 .btn{
   background-color: transparent;
-  color: white;
-  border-color: #white;
+  color: #83727E;
+  border-color: #83727E;
 }
 
 .btn:hover {
-  color: #9500ff;
+  color: white;
   background-color: transparent;
-  border-color: #9500ff;
+  border-color: white;
 }
 
 form label{
-  color: white;
+  color: #553E4E;
   text-align: left;
   font-weight: 300;
 }
@@ -84,6 +84,11 @@ form label{
 form {
   display: inline-block;
   width: 100%;
+}
+
+form input, textarea{
+  background-color: transparent;
+  border-color: #553E4E;
 }
 
 @media only screen and (min-width: 608px) {
